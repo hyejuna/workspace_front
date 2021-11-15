@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* 공통 */
+.btn{
+    width:55px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    text-align: center;
+    cursor: pointer;
+    background-color:#efefef;
+}
+
+/* 게시판 리스트 */
+
+/* 게시판글쓰기 */
+#bWrite .form-group{
+    /* border-bottom:1px solid #000; */
+    padding:5px 0px 5px 0px;
+}
+
+#sel-boardType{
+    width: 200px;
+    height:25px;
+}
+
+#txt-title{
+    width:700px;
+    height:25px;
+}
+
+#txt-password{
+    width:200px;
+    height:25px;
+}
+
+.form-text{
+    display:inline-block;
+    width:80px;
+}
+
+input[type="radio"]{
+    width:18px;
+    height:18px;
+    margin:0px 15px 0px 0px;
+}
+
+input[type="checkbox"]{
+    width:18px;
+    height:18px;
+    margin:0px 15px 0px 0px;
+}
+
+#text-content{
+    width:786px;
+    height:300px;
+}
+
+.btn-area{
+    border-top:1px solid #000;
+    padding: 12px 5px 12px 5px;
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+}
+
+
+.btn:hover{
+    background-color: #d9d9d9;
+}
+
+/* 게시판수정 */

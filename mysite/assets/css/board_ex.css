@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* 공통 */
+.btn{
+    width:55px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    text-align: center;
+    cursor: pointer;
+    background-color:#efefef;
+}
+.btn:hover{
+    background-color: #d9d9d9;
+}
+
+input[type="text"]{
+    height:25px;
+}
+
+#wrap #contents2 #main #search{
+    float:right;
+    margin: 20px 0px 10px 0px;
+
+}
+
+
+#wrap #contents2 #main #bList{
+    width:780px;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+    text-align:center;
+}
+
+#wrap #contents2 #main #bList thead tr th{
+    background-color: #aaa;
+    margin:5px 0px 5px 0px;
+    border-bottom:1px solid #777;
+}
+
+#wrap #contents2 #main #main-bottom ol{
+    margin-left: 300px;
+}
+#wrap #contents2 #main #main-bottom ol>li{
+    float:left;
+    margin: 20px 5px 0px 5px;
+}
+
+#wrap #contents2 #main #main-bottom button{
+    float:right;
+    margin: 10px 0px 0px 0px;
+}
